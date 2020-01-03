@@ -12,16 +12,21 @@
   - focusNode で、次の field を指定できる
   - .done + onEditingComplete でメソッド呼べる
   - controller で、文字を管理できる。clear など。
+  
+- Dialog
+  - 
 
 # Navigator
 - id 管理良いかも 
 
 # Error
-- 
+- on PlatformException が便利
+  - on PlatformException catch(e) → e.message でエラーが出るので！工数下げるためにこれでOKでは。
 
 # Architecture
 - BLoC
 - Provider 
+[Flutter Provider: Introduction - YouTube](https://www.youtube.com/watch?v=O71rYKcxUgA)
 
 
 # ShortCut
