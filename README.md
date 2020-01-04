@@ -41,12 +41,20 @@
 
 # Navigator
 - id 管理良いかも 
+- Navigator.of(context, rootNavigator: true).push でタブバー消える
+
+# BottomNavigation
+- [Flutter Case Study: Multiple Navigators with BottomNavigationBar](https://medium.com/coding-with-flutter/flutter-case-study-multiple-navigators-with-bottomnavigationbar-90eb6caa6dbf)
+
+# Date
+- [Dart/Flutter での多言語対応あれこれ - Flutter 🇯🇵 - Medium](https://medium.com/flutter-jp/intl-beb5b9e8ee73)
 
 # Error
 - map 使っている時に、toList がつけずに型が合わないことがある。
-- 
+- Coupertino と Materialは一緒に使わない方がいい時がある。→ tabbar と floatingActionButton など。
 
 # Exception
+- parse → tryParse
 - on PlatformException が便利
   - on PlatformException catch(e) → e.message でエラーが出るので！工数下げるためにこれでOKでは。
 - Exception Handler 
@@ -59,6 +67,10 @@
   - 虫さんを押して、ホットリロード
   - コンソールで Variables を確認できる
   - 
+
+# StateManagement
+- [Flutter & Firebase: Build a Complete App for iOS & Android | Udemy](https://www.udemy.com/course/flutter-firebase-build-a-complete-app-for-ios-android/learn/lecture/15789070#overview)
+
 
 # Architecture
 - BLoC
