@@ -8,6 +8,9 @@
 - import もできる
 - なんでもできそう。
 
+## 設定
+<img width="1030" alt="Screen_Shot_2020-03-24_at_13_48_14" src="https://user-images.githubusercontent.com/43805056/77389367-57b30380-6dd6-11ea-9bb1-20b8ee1737a9.png">
+
 # UI
 - Placeholder 使うと一時的に置けるのでいいな
 
