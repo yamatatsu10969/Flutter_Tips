@@ -13,13 +13,28 @@
 4. Mac 再起動
 
 
-## iOS
+# iOS
 
-- 
+- とりあえず `rm -rf ~/Library/Developer/Xcode/DerivedData`
+  - .zshrc とかに書いとくと便利 → alias clean='rm -rf ~/Library/Developer/Xcode/DerivedData'
+
+- pods 関係で死んでそうな時
+  - `cd ios` → `pod deintegrate` → `pod install`
+
+- どうにもならん時　（https://github.com/flutter/flutter/issues/41900)
+  - 'flutter clean && rm ios/Podfile ios/Podfile.lock pubspec.lock && rm -rf ios/Pods ios/Runner.xcworkspace && flutter run'
+
+```
+flutter clean && \
+rm ios/Podfile ios/Podfile.lock pubspec.lock && \
+rm -rf ios/Pods ios/Runner.xcworkspace && \ 
+flutter run
+```
 
 
 
-## Android
+
+# Android
 
 
 - [Android Studioでビルドエラーが解決できない時に試すこと - Qiita](https://qiita.com/ikemura23/items/28cc9e30029200ee3b92)
@@ -33,5 +48,15 @@
 
 
 
-
 - [App名の変更 android - How to change package name in flutter? - Stack Overflow](https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter)
+
+- Android のパスが通らない時に .zshrc に書いた
+
+```
+# android studio
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
