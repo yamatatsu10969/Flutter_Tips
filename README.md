@@ -55,16 +55,6 @@
 # Error
 - map 使っている時に、toList がつけずに型が合わないことがある。
 - Coupertino と Materialは一緒に使わない方がいい時がある。→ tabbar と floatingActionButton など。
-- iOS で ビルドエラー になる時 https://github.com/flutter/flutter/issues/41900
-  - 'flutter clean && rm ios/Podfile ios/Podfile.lock pubspec.lock && rm -rf ios/Pods ios/Runner.xcworkspace && flutter run'
-```
-flutter clean && \
-rm ios/Podfile ios/Podfile.lock pubspec.lock && \
-rm -rf ios/Pods ios/Runner.xcworkspace && \ 
-flutter run
-```
-
-- Android でビルドエラー
 
 
 # Exception
