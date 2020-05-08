@@ -1,4 +1,4 @@
-# Flutter で訳わからんビルドエラーになった時にやること
+# Flutter でわけわからんビルドエラーになった時にやること
 
 1. `flutter clean` ← ターミナル or  Tool > Flutter > Flutter clean
 2. `flutter doctor -v`
@@ -60,3 +60,27 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
+
+- パッケージをインストールして、 build.gradle の $kotlin_version がError の時
+
+.pub-cache/hosted/pub.dartlang.org/something_package/android/app/build.gradle エラーになってるとか。
+
+全体で kotlin のバージョンを使えるようにするために、 android/build.gradle に以下を追加
+`ext.kotlin_version = '1.3.30'` だけでもよさげ。
+
+```
+// Project build.gradle file.
+    buildscript {
+        ext.kotlin_version = '1.3.30'
+        ...
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        }
+    }
+
+```
+
+
+https://developer.android.com/kotlin/add-kotlin
+
+https://stackoverflow.com/questions/35161913/kotlin-cannot-access-kotlin-jvm-functions-function1-when-calling-kotlin-function/55742956
