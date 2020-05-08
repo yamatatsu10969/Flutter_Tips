@@ -3,7 +3,7 @@
 1. `flutter clean` ← ターミナル or  Tool > Flutter > Flutter clean
 2. `flutter doctor -v`
 3. `build` フォルダを消す
-4. 
+4. とりあえず `flutter clean`
 
 # device が検知されない
 
