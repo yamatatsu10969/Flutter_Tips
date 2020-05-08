@@ -84,3 +84,15 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 https://developer.android.com/kotlin/add-kotlin
 
 https://stackoverflow.com/questions/35161913/kotlin-cannot-access-kotlin-jvm-functions-function1-when-calling-kotlin-function/55742956
+
+
+# pub が死んでそうな時
+
+`flutter pub cache repair `
+
+```
+flutter pub cache repair 
+or delete /Users/xxxxxxx/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/ and run flutter packages get again.
+
+if all above things fails delete cache folder or also check the version updated in lock file (some time lock give me the problem with updating the version number)
+```
