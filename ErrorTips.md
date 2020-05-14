@@ -86,6 +86,16 @@ https://developer.android.com/kotlin/add-kotlin
 https://stackoverflow.com/questions/35161913/kotlin-cannot-access-kotlin-jvm-functions-function1-when-calling-kotlin-function/55742956
 
 
+
+# Error type 3: Activity Class {} does not exist 
+
+`Error type 3: Activity Class {} does not exist` には、 `uninstallAll` をやらなきゃいけない
+
+[[Tutorial] Error Type 3 Android Studio {} 2 Way Easy To Fix - YouTube](https://www.youtube.com/watch?v=_pkqn7taINM)
+
+
+
+
 # pub が死んでそうな時
 
 `flutter pub cache repair `
