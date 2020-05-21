@@ -14,6 +14,10 @@
 # UI
 - Placeholder 使うと一時的に置けるのでいいな
 
+- 親の widget のサイズを知りたい時
+  - LayoutBuilder を使う
+  - [dart - How can I layout widgets based on the size of the parent? - Stack Overflow](https://stackoverflow.com/questions/41558368/how-can-i-layout-widgets-based-on-the-size-of-the-parent)
+
 
 # Widget
 - Widget のサイズが大きすぎて、キーボードが出てきた時に使える
