@@ -106,3 +106,8 @@ or delete /Users/xxxxxxx/development/tools/flutter/.pub-cache/hosted/pub.dartlan
 
 if all above things fails delete cache folder or also check the version updated in lock file (some time lock give me the problem with updating the version number)
 ```
+
+
+## Android では Error が出るけど、 iOS では出ない Error
+
+int に15桁以上使った時に、Android はエラーだけど、iOSは出ない。
