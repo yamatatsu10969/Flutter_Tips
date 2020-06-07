@@ -109,4 +109,6 @@ setter, getter を作成可能
 
 # HTTP 系
 - chopper
+  - [Chopper (Retrofit for Flutter) - #1 Basics - Dart HTTP Client Generator Tutorial - YouTube](https://www.youtube.com/watch?v=zFXK5EsrUF0)
+  - [ResoCoder/flutter-chopper-tutorial-course](https://github.com/ResoCoder/flutter-chopper-tutorial-course)
 - http
