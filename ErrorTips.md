@@ -118,3 +118,8 @@ if all above things fails delete cache folder or also check the version updated 
 ## Android では Error が出るけど、 iOS では出ない Error
 
 int に15桁以上使った時に、Android はエラーだけど、iOSは出ない。
+
+## http はダメ！ https にしなきゃ！ Error
+`Exception: PlatformException(VideoError, Video player had error com.google.android.exoplayer2.ExoPlaybackException:`
+[Flutter video player Unable to connect to : (url) · Issue #52831 · flutter/flutter](https://github.com/flutter/flutter/issues/52831)
+- 使用する url を  https に修正したら復活する
