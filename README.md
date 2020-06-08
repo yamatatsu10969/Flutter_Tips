@@ -112,3 +112,8 @@ setter, getter を作成可能
   - [Chopper (Retrofit for Flutter) - #1 Basics - Dart HTTP Client Generator Tutorial - YouTube](https://www.youtube.com/watch?v=zFXK5EsrUF0)
   - [ResoCoder/flutter-chopper-tutorial-course](https://github.com/ResoCoder/flutter-chopper-tutorial-course)
 - http
+  
+## HTTP 系を試す時
+無料で API 接続ができて、レスポンスが返ってくる。練習に最適
+[JSONPlaceholder - Fake online REST API for developers](https://jsonplaceholder.typicode.com/)
+
