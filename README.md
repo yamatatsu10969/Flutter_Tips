@@ -119,6 +119,10 @@ setter, getter を作成可能
 
 ## 動画を試す時
 - [public test videos](https://gist.github.com/jsturgis/3b19447b304616f18657)
+- 動画のパッケージは chewie が最高
+  - [chewie | Flutter Package](https://pub.dev/packages/chewie#-installing-tab-)
+  - [chewie-flutter-tutorial/pubspec.yaml at master · ResoCoder/chewie-flutter-tutorial](https://github.com/ResoCoder/chewie-flutter-tutorial/blob/master/pubspec.yaml)
+  - [Flutter Video Player – Chewie Tutorial - Reso Coder](https://resocoder.com/2019/04/13/flutter-video-player-chewie-tutorial/)
 
 ## 画像を試す時
 - [Lorem Picsum](https://picsum.photos/)
