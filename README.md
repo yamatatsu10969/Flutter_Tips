@@ -117,3 +117,9 @@ setter, getter を作成可能
 無料で API 接続ができて、レスポンスが返ってくる。練習に最適
 [JSONPlaceholder - Fake online REST API for developers](https://jsonplaceholder.typicode.com/)
 
+## 動画を試す時
+- [public test videos](https://gist.github.com/jsturgis/3b19447b304616f18657)
+
+## 画像を試す時
+- [Lorem Picsum](https://picsum.photos/)
+- [Beautiful Free Images & Pictures | Unsplash](https://unsplash.com/)
