@@ -111,7 +111,11 @@ setter, getter を作成可能
 - chopper
   - [Chopper (Retrofit for Flutter) - #1 Basics - Dart HTTP Client Generator Tutorial - YouTube](https://www.youtube.com/watch?v=zFXK5EsrUF0)
   - [ResoCoder/flutter-chopper-tutorial-course](https://github.com/ResoCoder/flutter-chopper-tutorial-course)
-- http
+- http(標準
+- Dio
+  - めちゃくちゃ便利そう
+  - [dio | Dart Package](https://pub.dev/packages/dio)
+  - [Dio Connectivity Retry Interceptor – Flutter Tutorial - YouTube](https://www.youtube.com/watch?v=qkN0kcZxeVc)
   
 ## HTTP 系を試す時
 無料で API 接続ができて、レスポンスが返ってくる。練習に最適
