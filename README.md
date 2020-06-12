@@ -132,3 +132,26 @@ setter, getter を作成可能
 ## 画像を試す時
 - [Lorem Picsum](https://picsum.photos/)
 - [Beautiful Free Images & Pictures | Unsplash](https://unsplash.com/)
+
+## DEBUG と RELEASE
+- 普段は DEBUG ビルドになっている
+- RELEASE にするには、 アクション（shift + cmd + A） で release を入力すると、run release みたいなのが出てくる。
+![Screen Shot 2020-06-12 at 20 28 29](https://user-images.githubusercontent.com/43805056/84498391-8a8cd980-aceb-11ea-898c-5b984e0e564f.png)
+
+以下の AppUtility を設定しておくと便利。
+
+```
+import 'package:flutter/foundation.dart' as foundation;
+
+class AppUtility {
+  static bool isAppDebugMode() {
+    if (foundation.kDebugMode) {
+      print('app DEBUG mode');
+      return true;
+    } else {
+      print('App RELEASE mode');
+      return false;
+    }
+  }
+}
+```
