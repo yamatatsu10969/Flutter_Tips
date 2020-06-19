@@ -122,6 +122,7 @@ setter, getter を作成可能
 [JSONPlaceholder - Fake online REST API for developers](https://jsonplaceholder.typicode.com/)
 
 ## 動画を試す時
+- [ここも良さげ](https://www.learningcontainer.com/mp4-sample-video-files-download/)
 - [Test your streaming URL - Radiant Media Player](https://www.radiantmediaplayer.com/test-your-streaming-url.html) // こっちがいい。
   - [public test videos](https://gist.github.com/jsturgis/3b19447b304616f18657) // これは HTTP から動画を取得するから使えなかった orz
 - 動画のパッケージは chewie が最高
