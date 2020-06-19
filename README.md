@@ -155,3 +155,21 @@ class AppUtility {
   }
 }
 ```
+
+## 透明な AppBar
+
+大事 `extendBodyBehindAppBar: true`
+
+```
+Widget _buildScaffold(BuildContext context) {
+    return WillPopScope(
+      onWillPop: () async => false,
+      child: Scaffold(
+        key: scaffoldKey,
+        extendBodyBehindAppBar: true,
+        appBar: AppBar(
+          title: Text(args.channelName),
+          automaticallyImplyLeading: false,
+          backgroundColor: Colors.black26.withOpacity(0.8))
+
+```
